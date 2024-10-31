@@ -20,7 +20,6 @@ public class arrowSpawner : MonoBehaviour
         {
             GameObject arrow = arrowPool.Instance.requestArrow(1);
             arrow.transform.position = leftSpawn.transform.position;
-            //arrow.transform.position;
         }
         else if (Input.GetKeyDown(KeyCode.W))
         {
