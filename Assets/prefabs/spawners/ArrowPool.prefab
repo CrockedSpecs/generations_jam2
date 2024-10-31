@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5108539089941005999
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8812147086689728759}
+  - component: {fileID: 5026364985105239739}
+  m_Layer: 0
+  m_Name: ArrowPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8812147086689728759
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108539089941005999}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5026364985105239739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5108539089941005999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904a247dd15fecf48811c84d510821bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upArrowPrefab: {fileID: 4490988752061275574, guid: b2c83364672c803408406a872cfef122, type: 3}
+  downArrowPrefab: {fileID: 8942550810908778616, guid: 437afa2a19d37dc4dad65bb3417bc144, type: 3}
+  leftArrowPrefab: {fileID: 433642128413578252, guid: fe25e5d5b4dd6d446a2bb4b8c734310f, type: 3}
+  rightArrowPrefab: {fileID: 4599869586863524907, guid: e81555433b3d46740bd9f42a60b493f1, type: 3}
+  upArrowList: []
+  downArrowList: []
+  leftArrowList: []
+  rightArrowList: []
