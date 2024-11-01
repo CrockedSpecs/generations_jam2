@@ -8,7 +8,7 @@ public class arrowPool : MonoBehaviour
     [SerializeField] private GameObject downArrowPrefab;
     [SerializeField] private GameObject leftArrowPrefab;
     [SerializeField] private GameObject rightArrowPrefab;
-    private int poolSize = 10;
+    private int poolSize = 15;
     [SerializeField] private List<GameObject> upArrowList;
     [SerializeField] private List<GameObject> downArrowList;
     [SerializeField] private List<GameObject> leftArrowList;
