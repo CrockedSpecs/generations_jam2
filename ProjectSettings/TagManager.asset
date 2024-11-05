@@ -46,12 +46,18 @@ TagManager:
   - name: Ojos
     uniqueID: 2786971801
     locked: 0
+  - name: Items
+    uniqueID: 3908037955
+    locked: 0
   - name: Character
     uniqueID: 1867079413
     locked: 0
-  - name: Frente
-    uniqueID: 1974408569
+  - name: Efects
+    uniqueID: 3511938497
     locked: 0
   - name: UI
     uniqueID: 200601065
+    locked: 0
+  - name: Frente
+    uniqueID: 1974408569
     locked: 0
