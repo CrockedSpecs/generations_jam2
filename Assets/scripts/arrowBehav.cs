@@ -5,10 +5,6 @@ using UnityEngine;
 public class arrowBehav : MonoBehaviour
 {
     public float speed;
-    public Collider2D trigger1;
-    public Collider2D trigger2;
-    public Collider2D trigger3;
-    public Collider2D trigger4;
     void Start()
     {
         speed = 5f;
@@ -25,10 +21,6 @@ public class arrowBehav : MonoBehaviour
         transform.Translate(Vector3.down*speed*Time.deltaTime);
     }
 
-    void getPoint()
-    {
-
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -38,7 +30,6 @@ public class arrowBehav : MonoBehaviour
         }
         else if (collision.gameObject.tag == "checker")
         {
-            getPoint();
             gameObject.SetActive(false);
         }
     }
