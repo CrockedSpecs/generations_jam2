@@ -1,0 +1,515 @@
+fileFormatVersion: 2
+guid: 9fdf557e7ec0c044cb96116a7493f003
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData: []
+  rigSpriteImportData:
+  - name: Arboles frente
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1651
+      width: 1920
+      height: 444
+    spriteID: c2aeb44d50192954ea66f86e58702f3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1566}
+    spritePosition: {x: 0, y: 636}
+  - name: Pasto frente
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2825
+      width: 1920
+      height: 245
+    spriteID: 463d8b9f4f942684db04d96155ad05d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2825}
+    spritePosition: {x: 0, y: 0}
+  - name: Layer 2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1932
+      y: 4
+      width: 1920
+      height: 82
+    spriteID: 866a836a02e383448b5f0870ebcec10c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1932, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Luna
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1010
+      y: 3078
+      width: 386
+      height: 387
+    spriteID: d349fa3fdc43ad24a8cc7d93a31d9990
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1010, y: 3078}
+    spritePosition: {x: 782, y: 576}
+  - name: Arbol1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 522
+      y: 3078
+      width: 480
+      height: 809
+    spriteID: 21fe7db42b9ba884385ed6db21c2a5ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 522, y: 3011}
+    spritePosition: {x: 1440, y: 67}
+  - name: Arbol2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 3078
+      width: 510
+      height: 809
+    spriteID: b806fb77ec706ea48af182ce4d74d6de
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 3011}
+    spritePosition: {x: 0, y: 67}
+  - name: Pasto
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1010
+      y: 3627
+      width: 584
+      height: 145
+    spriteID: 856f0a44701f4ce419d2737340d34f8a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1010, y: 3627}
+    spritePosition: {x: 1336, y: 34}
+  - name: Pasto1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1010
+      y: 3473
+      width: 660
+      height: 146
+    spriteID: 92a354e1aec145a4ca867eac14989b72
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1010, y: 3473}
+    spritePosition: {x: 0, y: 33}
+  - name: Cementerio
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2103
+      width: 1905
+      height: 386
+    spriteID: 9170fcc26a3e5af42acec7b22585a714
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2103}
+    spritePosition: {x: 15, y: 0}
+  - name: Arboles
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1092
+      width: 1902
+      height: 551
+    spriteID: 8be8398119f8fe4409219de77fd618b6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1092}
+    spritePosition: {x: 0, y: 0}
+  - name: "Monta\xF1as"
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 2497
+      width: 1905
+      height: 320
+    spriteID: 83543ef59012c4b46938a0bdf10fad73
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 2497}
+    spritePosition: {x: 15, y: 205}
+  - name: Vector Smart Object
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 1920
+      height: 1080
+    spriteID: ee60046be66d4bc4cb54afad77edaedf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  padding: 4
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Arboles frente
+    spriteName: Arboles frente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c2aeb44d50192954ea66f86e58702f3c
+    layerID: 3
+    mosaicPosition: {x: 4, y: 1651}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pasto frente
+    spriteName: Pasto frente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 463d8b9f4f942684db04d96155ad05d6
+    layerID: 50
+    mosaicPosition: {x: 4, y: 2825}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Layer 2
+    spriteName: Layer 2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 866a836a02e383448b5f0870ebcec10c
+    layerID: 43
+    mosaicPosition: {x: 1932, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Luna
+    spriteName: Luna
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d349fa3fdc43ad24a8cc7d93a31d9990
+    layerID: 8
+    mosaicPosition: {x: 1010, y: 3078}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arbol1
+    spriteName: Arbol1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 21fe7db42b9ba884385ed6db21c2a5ef
+    layerID: 16
+    mosaicPosition: {x: 522, y: 3078}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arbol2
+    spriteName: Arbol2
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b806fb77ec706ea48af182ce4d74d6de
+    layerID: 12
+    mosaicPosition: {x: 4, y: 3078}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pasto
+    spriteName: Pasto
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 856f0a44701f4ce419d2737340d34f8a
+    layerID: 19
+    mosaicPosition: {x: 1010, y: 3627}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Pasto1
+    spriteName: Pasto1
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 92a354e1aec145a4ca867eac14989b72
+    layerID: 17
+    mosaicPosition: {x: 1010, y: 3473}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Cementerio
+    spriteName: Cementerio
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9170fcc26a3e5af42acec7b22585a714
+    layerID: 115
+    mosaicPosition: {x: 4, y: 2103}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Arboles
+    spriteName: Arboles
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8be8398119f8fe4409219de77fd618b6
+    layerID: 151
+    mosaicPosition: {x: 4, y: 1092}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: "Monta\xF1as"
+    spriteName: "Monta\xF1as"
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 83543ef59012c4b46938a0bdf10fad73
+    layerID: 20
+    mosaicPosition: {x: 4, y: 2497}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Vector Smart Object
+    spriteName: Vector Smart Object
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ee60046be66d4bc4cb54afad77edaedf
+    layerID: 6
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
