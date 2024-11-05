@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Main.unity
+    path: Assets/build/Main.unity
     guid: 9147f61e9fd186e4b94d57f6c070ce57
   - enabled: 0
     path: Assets/Scenes/LoadingScreen.unity
     guid: ee715ca0095e4004ea12dc92188a9814
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/build/MainMenu.unity
     guid: 5990832a1be696844bb204e5e1ea196f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/AngieScene.unity
     guid: 788996a365dcd8047947c737c8f09878
+  - enabled: 1
+    path: Assets/build/level1.unity
+    guid: 49f671a4092f81842bf3d2329a3a8cf1
   m_configObjects: {}
