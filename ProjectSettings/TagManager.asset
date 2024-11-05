@@ -44,3 +44,6 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ojos
+    uniqueID: 2786971801
+    locked: 0
