@@ -44,26 +44,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-
   - name: BackGround
-    uniqueID: 979214461
+    uniqueID: 2714486365
     locked: 0
-  - name: Decoracion
-    uniqueID: 1854762643
+  - name: ObjectsStatick
+    uniqueID: 4271101621
     locked: 0
   - name: Character
-    uniqueID: 1016509877
-    locked: 0
-  - name: Frente
-    uniqueID: 755537521
+    uniqueID: 1498845283
     locked: 0
   - name: Particles
-    uniqueID: 2738811113
+    uniqueID: 3276040415
+    locked: 0
+  - name: Frente
+    uniqueID: 3591653005
     locked: 0
   - name: GamePlay
-    uniqueID: 4118263173
+    uniqueID: 4084772579
     locked: 0
-  - name: Canvas
-    uniqueID: 1256451853
+  - name: UI
+    uniqueID: 2826967195
     locked: 0
-
