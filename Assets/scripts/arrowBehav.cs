@@ -7,7 +7,7 @@ public class arrowBehav : MonoBehaviour
     public float speed;
     void Start()
     {
-        speed = 5f;
+        speed = 2f;
     }
 
     // Update is called once per frame
@@ -25,10 +25,6 @@ public class arrowBehav : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "deadEnd")
-        {
-            gameObject.SetActive(false);
-        }
-        else if (collision.gameObject.tag == "checker")
         {
             gameObject.SetActive(false);
         }
