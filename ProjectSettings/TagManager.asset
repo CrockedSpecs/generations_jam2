@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - deadEnd
+  - trigger
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,10 @@ TagManager:
     locked: 0
   - name: Ojos
     uniqueID: 2786971801
+    locked: 0
+  - name: Character
+    uniqueID: 1867079413
+    locked: 0
+  - name: Frente
+    uniqueID: 1974408569
     locked: 0
