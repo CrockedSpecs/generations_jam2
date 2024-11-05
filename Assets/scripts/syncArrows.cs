@@ -7,19 +7,16 @@ public class syncArrows : MonoBehaviour
 {
     [SerializeField] private int arrowDirection;
     [SerializeField] private GameObject Arrow;
-    public Collider2D Checker1;
-    public Collider2D Checker2;
-    public Collider2D Checker3;
-    public Collider2D Checker4;
+    private Collider2D Checker;
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        Checker1.enabled = false;
-        Checker2.enabled = false;
-        Checker3.enabled = false;
-        Checker4.enabled = false;
+        Checker = GetComponent<Collider2D>();
+        Checker.enabled = false;
+
     }
 
     // Update is called once per frame
@@ -67,10 +64,10 @@ public class syncArrows : MonoBehaviour
         alphaColor.a = 1;
         Arrow.GetComponent<SpriteRenderer>().color = alphaColor;
 
-        Checker1.enabled = true;
-        Checker2.enabled = true;
-        Checker3.enabled = true;
-        Checker4.enabled = true;
+        Checker.enabled = true;
+        yield return new WaitForSeconds(0.05f);
+        Checker.enabled = false;
+
 
         // Espera un corto tiempo antes de volver al estado original
         yield return new WaitForSeconds(0.15f);
@@ -78,9 +75,41 @@ public class syncArrows : MonoBehaviour
         alphaColor.a = 0.4f;
         Arrow.GetComponent<SpriteRenderer>().color = alphaColor;
 
-        Checker1.enabled = false;
-        Checker2.enabled = false;
-        Checker3.enabled = false;
-        Checker4.enabled = false;
+
+    }
+
+    void CheckPoints(float distancia)
+    {
+        if (distancia >= 0 && distancia <= 0.15)
+        {
+            pointManager.Instance.addPoint(10);
+            Debug.Log("perfect" + pointManager.Instance.globalPoints);
+        }
+        else if (distancia > 0.15f && distancia <= 0.4f)
+        {
+            pointManager.Instance.addPoint(8);
+            Debug.Log("Almost" + pointManager.Instance.globalPoints);
+        }
+        else if (distancia > 0.3)
+        {
+            pointManager.Instance.addPoint(6);
+            Debug.Log("Bad" + pointManager.Instance.globalPoints);
+        }
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("trigger")) // Asegúrate de que el objeto tenga esta etiqueta
+        {
+            // Calcula la distancia entre el objeto principal (objetoA) y el objeto con el que colisiona
+            collision.gameObject.SetActive(false);
+            float distancia = Vector3.Distance(transform.position, collision.transform.position);
+            CheckPoints(distancia);
+
+
+            // Imprime la distancia en la consola
+            //Debug.Log("La distancia en el momento de la colisión es: " + distancia);
+        }
     }
 }
