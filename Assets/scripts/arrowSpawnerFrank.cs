@@ -9,26 +9,49 @@ public class arrowSpawnerFrank : MonoBehaviour
     public GameObject leftSpawn;
     public GameObject rightSpawn;
 
-    // Variables para controlar el tiempo de aparición
-    [SerializeField] private float minSpawnTime = 1f; // Tiempo mínimo de espera
-    [SerializeField] private float maxSpawnTime = 3f; // Tiempo máximo de espera
+    [SerializeField] private float minSpawnTime = 1f;
+    [SerializeField] private float maxSpawnTime = 3f;
 
-    void Start()
+    private bool musicIsPlaying = false;
+    private Coroutine arrowSpawnCoroutine;
+
+    void Update()
     {
-        StartCoroutine(SpawnArrows()); // Inicia la coroutine al comenzar
+        CheckMusicStatus();
+    }
+
+    void CheckMusicStatus()
+    {
+        if (audioManager.Instance.levelMusic.isPlaying && !musicIsPlaying)
+        {
+            musicIsPlaying = true;
+            Debug.Log("Audio ha comenzado");
+
+            // Inicia o reinicia la coroutine de generación de flechas
+            if (arrowSpawnCoroutine != null)
+                StopCoroutine(arrowSpawnCoroutine);
+
+            arrowSpawnCoroutine = StartCoroutine(SpawnArrows());
+        }
+        else if (!audioManager.Instance.levelMusic.isPlaying && musicIsPlaying)
+        {
+            musicIsPlaying = false;
+            Debug.Log("Audio se ha detenido");
+
+            // Detiene la generación de flechas cuando la música se detiene
+            if (arrowSpawnCoroutine != null)
+                StopCoroutine(arrowSpawnCoroutine);
+        }
     }
 
     IEnumerator SpawnArrows()
     {
-        while (true)
+        while (musicIsPlaying)
         {
-            // Espera un tiempo aleatorio entre minSpawnTime y maxSpawnTime
-            yield return new WaitForSeconds(Random.Range(minSpawnTime, maxSpawnTime));
-
-            int direction = Random.Range(1, 5); // Número aleatorio para elegir la dirección
+            Debug.Log("Comienzan a caer");
+            int direction = Random.Range(1, 5);
             GameObject arrow = arrowPool.Instance.requestArrow(direction);
 
-            // Asigna la posición en función de la dirección
             switch (direction)
             {
                 case 1:
@@ -44,8 +67,8 @@ public class arrowSpawnerFrank : MonoBehaviour
                     arrow.transform.position = rightSpawn.transform.position;
                     break;
             }
+
+            yield return new WaitForSeconds(Random.Range(minSpawnTime, maxSpawnTime));
         }
     }
 }
-
-

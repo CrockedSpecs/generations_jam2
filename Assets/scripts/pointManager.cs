@@ -8,7 +8,12 @@ public class pointManager : MonoBehaviour
     [SerializeField] private GameObject goodPrefab;
     [SerializeField] private GameObject ExcelentPrefab;
 
-    [SerializeField] public int globalPoints = 0;
+    public int globalPoints = 0;
+    public int difficulty = 3;
+    public bool midLevel = false;
+    public AudioSource gameSong;
+    public bool isMusicOn;
+
     // Start is called before the first frame update
 
     private static pointManager instance;
@@ -27,19 +32,14 @@ public class pointManager : MonoBehaviour
         }
 
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void addPoint(int points)
     {
         globalPoints += points;
+    }
+
+    public void addPotion()
+    {
+
     }
 }

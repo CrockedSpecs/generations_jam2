@@ -7,7 +7,7 @@ public class arrowBehav : MonoBehaviour
     public float speed;
     void Start()
     {
-        speed = 2f;
+        speed = 5f;
     }
 
     // Update is called once per frame
