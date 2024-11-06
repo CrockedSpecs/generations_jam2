@@ -106,10 +106,7 @@ public class syncArrows : MonoBehaviour
             collision.gameObject.SetActive(false);
             float distancia = Vector3.Distance(transform.position, collision.transform.position);
             CheckPoints(distancia);
-
-
-            // Imprime la distancia en la consola
-            //Debug.Log("La distancia en el momento de la colisión es: " + distancia);
+     
         }
     }
 }

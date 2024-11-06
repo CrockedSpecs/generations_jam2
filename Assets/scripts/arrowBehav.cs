@@ -7,7 +7,7 @@ public class arrowBehav : MonoBehaviour
     public float speed;
     void Start()
     {
-        speed = 5f;
+        speed = 4f;
     }
 
     // Update is called once per frame
@@ -26,6 +26,7 @@ public class arrowBehav : MonoBehaviour
     {
         if(collision.gameObject.tag == "deadEnd")
         {
+            pointManager.Instance.potionLives--;
             gameObject.SetActive(false);
         }
     }

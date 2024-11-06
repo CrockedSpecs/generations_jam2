@@ -10,9 +10,9 @@ public class pointManager : MonoBehaviour
 
     public int globalPoints = 0;
     public int difficulty = 3;
-    public bool midLevel = false;
-    public AudioSource gameSong;
-    public bool isMusicOn;
+    public int potionsNumber = 0;
+    public int potionLives = 3;
+    public int lives = 3;
 
     // Start is called before the first frame update
 
@@ -38,8 +38,13 @@ public class pointManager : MonoBehaviour
         globalPoints += points;
     }
 
-    public void addPotion()
+    public void addPotion(int number)
     {
+        potionsNumber =+ number;
+    }
 
+    public void restLives()
+    {
+        lives--;
     }
 }
